@@ -1,0 +1,276 @@
+id,question,question_concept,choices,answerKey
+4536489e5d8e02aadc3fcc7a55effe20,Where would you get some maps that you own?,maps,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['bookstore', 'library', 'electrical circuit', 'cabinet',
+       'important when traveling'], dtype=object)}",D
+46bc1a50eeead10509a43a048e01194e,Where would you find a single shower curtain being used?,shower curtain,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['bathtub', 'washing area', 'hotel', 'shower stall',
+       'department store'], dtype=object)}",A
+d312741df1b14bcbe358f4f30aff3994,"He walked into the room and had a great shock, his friends had what him?",shock,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['expected', 'wanting', 'calm', 'thundershock', 'surprised'],
+      dtype=object)}",E
+46ba5d2b8cfc6708e5e2618568d8730e,"The audience listened to the orchestra play, where were they watching the performance?",audience,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['concert hall', 'museum', 'school', 'hockey game',
+       'sporting event'], dtype=object)}",A
+178cb8153123716aa94f286b615149d4,Where could you find hundreds of beauty salon?,beauty salon,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['clerk', 'mall', 'strip mall', 'city', 'neighborhood'],
+      dtype=object)}",D
+9b26329d74a6159ab9af4f899303de39,"If my husband never helps me doing housework, what might that lead to?",doing housework,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['boredom', 'arguments', 'headache', 'exhaustion', 'park'],
+      dtype=object)}",B
+900492bd731f8f615ed7c08155737d44,Before racers start to run they must do what at the starting line?,run,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['learn to walk', 'walking', 'walk slowly', 'breathe',
+       'stand still'], dtype=object)}",E
+400fb2e196e71abb70e5b3f9aab4b9ee,"The teens were trying to hide that they get drink, but when they walked in the door their what gave it away?",get drunk,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['health', 'fall down', 'stagger', 'get arrested', 'vomit'],
+      dtype=object)}",C
+0bf4d64ad0eee7224acb3a4eb85accb2,What happens when to ice when it is in the sun?,ice,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['carved', 'melted', 'ice cream', 'antarctica', 'sculptured'],
+      dtype=object)}",B
+350292ae429060a00ff2cf64d71558e4,Where would a person light alcohol on fire to observe the reaction?,alcohol,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['supermarket', 'bar', 'pub', 'restaurants', 'chemistry lab'],
+      dtype=object)}",E
+094fe91b20b03c647325fa2ee94470b3,What could happen to a cat other than wanting food?,cat,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['feline', 'thirsty', 'sharp claws', 'pussycat', 'hungry'],
+      dtype=object)}",B
+b33047f46db680a9b630c13e8ca115cc,"Dan was ditting quietly on the couch with a book in his hand.  Laurie thought that he was just focused on what he was doing, but he actually did what?",sitting quietly,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['eat', 'think', 'reading', 'meditate', 'fall asleep'], dtype=object)}",E
+597d2a1c9df7962218d8b807df1f8212,What blocks sunshine?,sunshine,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['summer', 'park', 'desktop', 'sea', 'moon'], dtype=object)}",E
+2c0030cc14a27be2401dcfdaa501f0fc,James found the sound relaxing.   It was so relaxing he almost did what despite his efforts?,relaxing,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['deep breathing', 'worried', 'fall asleep', 'invigorating',
+       'feeling good'], dtype=object)}",C
+cd39e442204d3edf7acc185fd59c8a44,The place where my linen closet is really needs repainting a light color as it only has one overhead light.,linen closet,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['house', 'home', 'pool house', 'hallway', 'bedroom'], dtype=object)}",D
+2a21820a135e1a49883525c055c74a0b,How is riding a bike getting it to move?,riding bike,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['practice', 'sense of balance', 'driving', 'good balance',
+       'pedalling'], dtype=object)}",E
+ec2e18fd8c18a4ebe5a091e0c8b94462,What does a stove do to the place that it's in?,stove,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['cool house', 'warm room', 'gas or electric', 'burn child',
+       'brown meat'], dtype=object)}",B
+7bc1198664b376f79d584725ad7f874b,What is likely to be found in a book that is not a foreword?,foreword,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['last word', 'conclusion', 'ikea instructions', 'afterword',
+       'epilogue'], dtype=object)}",E
+3e4b326aff96e9adbb52ba18cfa877b2,James looked up and saw the start twinkling in the black yonder.  He marveled the sheer number of them and the size of what?,stars,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['universe', 'orbit', 'night sky', 'outer space', 'his wallet'],
+      dtype=object)}",A
+fa031cff8e11e75c68d6a99ef0e5ca3a,How can someone be let into a brownstone?,brownstone,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['brooklyn', 'ring', 'subdivision', 'bricks', 'new york city'],
+      dtype=object)}",B
+026cb9c07a583ec933f2c4c67ae73836,Where are horses judged on appearance?,horses,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['race track', 'fair', 'raised by humans', 'in a field',
+       'countryside'], dtype=object)}",B
+e2a9f0041d17a9944377a91bef5e0d0d,Why do most people take a quick rest during the day?,rest,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['need to', 'hungry', 'feel more energetic', 'weak', 'regenerate'],
+      dtype=object)}",C
+4e3f85dc92eaad4ae6bc6529d62e382c,What does an actor do when they are bored of their roles?,actor,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['mask', 'branch out', 'wear costume', 'pretend', 'sing songs'],
+      dtype=object)}",B
+2ca05683157a3cd89d82016f13e560ec,Where can you find a place to eat in an urban area close to local nightlife?,place to eat,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['city', 'downtown', 'mall', 'shopping center', 'own house'],
+      dtype=object)}",B
+056b33c7050c167b0d4348d40d169358,Where would stones not be arranged in a path?,stones,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['quarries', 'field', 'park', 'bridge', 'made from rocks'],
+      dtype=object)}",B
+f646f3e064f06423fc25b98500796cf0,"What is someone who isn't clever, bright, or competent called?",clever,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['clumsy', 'ineffectual', 'dull', 'clumsy', 'stupid'], dtype=object)}",E
+3fdc0c422c524c994b9911a17f1f1834,"A showroom feature washers and refrigerators, where is this showroom located?",showroom,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['appliance store', 'vegas', 'electronics store', 'car dealership',
+       'kitchen'], dtype=object)}",A
+0b25bbd9e9aa976655e1975e31331709,"James was someone who was caught in his own delusions.  To him, the truth didn't do what what?",truth,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['work to advantage', 'matter to', 'help', 'free mind',
+       'further knowledge'], dtype=object)}",B
+af035b75b6f7a1927b1648963f281c5e,What furniture will you normally find near a side chair?,side chair,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['bedroom', 'table', 'wheel barrow', 'building', 'office'],
+      dtype=object)}",B
+ab2eb930b29bb6d5e94a6cd3b04ba01e,The dogs were protecting their own when they decided to what the bad man?,dogs,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['bad breath', 'defend', 'run fast', 'ocean', 'attack'],
+      dtype=object)}",E
+17d9bfaee1efac51b1ca240125bc5977,What does a self assured person often do?,person,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['acknowledgment', 'focused', 'know what time', 'feel important',
+       'trust himself'], dtype=object)}",D
+dfa23d3422b7294843447b6950d2b476,What does a person with a what likely do?,person,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['feel important', 'trust himself', 'own house',
+       'electrical circuit', 'know what time'], dtype=object)}",E
+2adbb4fc0d5249dc411dda433f378591,What could happen to you after you are cleaning house for a long time?,cleaning house,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['neatness', 'tiredness', 'order', 'exhaustion', 'sneezing'],
+      dtype=object)}",D
+a5dcac512870e79f5aa2b22dbd662404,Where can many stores with clothing be found?,clothing,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['shop', 'mall', 'department store', 'drawer', 'library'],
+      dtype=object)}",B
+64dbe5cb840ef4f1d25f8b68db8d5fed,"The business men left the discussion in the dressing room, now they just wanted to relax in the sauna of the what?",dressing room,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['brush hair', 'theater', 'house', 'dwelling', 'bathhouse'],
+      dtype=object)}",E
+0a5c069836784c3d574828d85a20a074,"I saw the receptionist carelessly toss my resume into the drawer, where did I want it to end up?",drawer,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['file cabinet', 'nightstand', 'kitchen cabinet', 'office desk',
+       'the floor'], dtype=object)}",D
+c7526b682e64f355384631b35cd78fc9,Dan fell off a bar stool.  He did this because he was what than ever before?,bar stool,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['kitchen', 'drunker', 'tavern', 'restaurant', 'shorter'],
+      dtype=object)}",B
+e40fd2c17fe2cde4bd4af540d35fd518,"If you have a condo in a Wisconsin city known for beer, where are you?",condo,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['city', 'electrical circuit', 'residential area', 'suburbia',
+       'milwaukee'], dtype=object)}",E
+246249cd7976358051a9811ff9c30736,How would you express information if you do not have a pen or pencil?,express information,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['may disagree', 'close mouth', 'write down', 'talk', 'eyes'],
+      dtype=object)}",D
+ad37795fd9e3a65553683ff305b5113d,What western state has thousands of miles of shore?,shore,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['picture of sea side', 'seaside town', 'beach', 'california',
+       'see side picture'], dtype=object)}",D
+32d5b7fcae24f0d4871cfb219c5a4b47,Metal is used to make what?,metal,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['junkyard', 'ore', 'instruments', 'metal fabrication shop',
+       'bowls'], dtype=object)}",C
+4ab069f2e979d51f2c5929f590d09982,Where is a broadcast studio likely to be heard?,broadcast studio,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['microphone', 'arena', 'radio station', 'trees', 'town'],
+      dtype=object)}",C
+6c1c1c282cebe8917f607f0dbc1c102e,"We are all human, and we all what?",human,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['write', 'eat cake', 'smile', 'think critically', 'die'],
+      dtype=object)}",E
+8e1b0792e441a5d54ae47a4b24f48977,"A man takes a seat at a museum outside of Barcelona, where is he likely?",seat,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['in cinema', 'martorell', 'falling down', 'show', 'airplane'],
+      dtype=object)}",B
+520972425aed0e532fa28a91c9b55b30,If you're buying beer for a float trip what are you preparing to do?,buying beer,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['get arrested', 'have fun', 'get sick', 'spend money', 'stupidity'],
+      dtype=object)}",B
+463521a93ae71e93bea8b97cdf7a6792,John wanted to clean all of the dust out of his place before settling down to watch his favorite shows.  What might he hardest do dust?,dust,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['closet', 'under the bed', 'television', 'attic', 'most buildings'],
+      dtype=object)}",D
+69335eb9bc5b7b5df840c38a086bf8b2,"He was beginning to worry they wouldn't get on the ride before closing, they had been standing in queue for a long what?",standing in queue,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['frustration', 'waiting', 'hair', 'time', 'patience'], dtype=object)}",D
+113aaea2b1a27a976547f54e531d99bb,Where is a doormat likely to be in front of?,doormat,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['facade', 'front door', 'doorway', 'entrance porch', 'hallway'],
+      dtype=object)}",B
+a2aa95861ef74bf1ecfc55db505e3982,"A farmer sees a weasel in the woods, where is the farmer?",weasel,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['chicken coop', 'beach', 'fairytale', 'great outdoors',
+       'corn fields'], dtype=object)}",D
+c492b8b9754a181c924c1df19998cbc7,"When you fail to finish something, you failed at doing what to it",fail,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['winning', 'passing', 'completing', 'do well', 'succeeding'],
+      dtype=object)}",C
+aa2dcd9bcce5e4445bd3bacbf0bb11d3,Where do people get beer after a bit of gambling?,beer,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['bottle', 'grocery store', 'casino', 'spaceship', 'hockey game'],
+      dtype=object)}",C
+c4b1a57e7880b9cb367f9c67abf5605f,Kissing is normally an activity reserved for your romantic what?,kissing,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['anus', 'partner', 'arousal', 'trust', 'cooperation'], dtype=object)}",B
+21ce6f7c5c3d1ad8cf234988c1ad471f,"If you really wanted a grape, where would you go to get it?",grape,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['winery', 'fruit stand', 'field', 'kitchen', 'food'], dtype=object)}",B
+b62d7d1b5eec31be0b65146a9fc069e0,What will god never do according to religion?,god,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['anything', 'judge people', 'work miracles', 'judge men',
+       'everywhere'], dtype=object)}",B
+f8544c9679d27b747dfad3b8d7aac87a,"If I want to open a steakhouse, what should I get first?",steakhouse,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['michigan', 'florida', 'wine', 'texas', 'building'], dtype=object)}",E
+95a85df48902d23eb3fda25a99fca1a0,What is it called when two people in love have children?,love,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['take oath', 'procreate', 'matrimony', 'please parents',
+       'live life'], dtype=object)}",B
+6ca8439d062de4d43d7d471c508b78db,"More people should lower the guard and just have fun, we don't got long just what?",have fun,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['enjoy living', 'happy', 'enjoyable', 'get laid', 'do enjoy'],
+      dtype=object)}",A
+8233ccb60dd0c0ff3b7ca5d73e5681f2,Why might a person be known as a liar?,person,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['have no home', 'false information', 'hungry', 'made fun of',
+       'brain tumor'], dtype=object)}",B
+129ec46cc2541b73198d774ee632c8d7,What will happen to someone if his or her spirits cannot elevate?,elevate,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['sadden', 'demote', 'depress', 'drop', 'decrease'], dtype=object)}",C
+8ebf9d24719649a0b041aea02a6e46af,"If there is a pond with trees around it, where it it likely located?",pond,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['ground', 'bathroom', 'forest', 'countryside', 'rural area'],
+      dtype=object)}",C
+359aed918343d228e67cef329b693904,"The chef wanted to perfect his craft, what did he do?",chef,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['thin potatos', 'prepare food', 'study french cooking', 'drink',
+       'cook dinner'], dtype=object)}",C
+cebc07bd5080cc72862cb333b10d782d,"Joe is a  squirrel, which is an animal. He probably lives in what sort of place.",animal,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['pet store', 'outside', 'woodland', 'ocean', 'cafe'], dtype=object)}",C
+668dc6bce771b10cbf6336f3ec76520a,Why do people play chess on the weekends?,play chess,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['satisfaction', 'have fun', 'thrilling', 'made', 'smart'],
+      dtype=object)}",B
+64ab884bd870f6f68146636b4cce921c,What does playing soccer and winning lead to?,playing soccer,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['excitement', 'getting tired', 'overtime', 'anger', 'fights'],
+      dtype=object)}",A
+54075de8b8b89ecef2e4eb4eaee2713d,"The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what?",weasel,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['forrest', 'barn', 'public office', 'out of doors', 'freezer'],
+      dtype=object)}",B
+4ef3d70648ee3cea028bc5ed0fdfda28,Eating breakfast in bed while seeing a homeless person shivering outside your window may cause you to what?,eating breakfast in bed,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['mess', 'hungry', 'feel guilty', 'indigestion', 'spills'],
+      dtype=object)}",C
+f7b96f195a7adfe0c74924a165cfd055,People are what when you're a stranger?,people,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['train', 'strange', 'human', 'stupid', 'dangerous'], dtype=object)}",B
+15556e26feaa5a8a29c9f30896e535d4,Where do you throw a ball at pins?,ball,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['bowling alley', 'football stadium', 'soccer field',
+       'sporting event', 'sporting goods store'], dtype=object)}",A
+684204df916cc58d47293960f9c6ed9f,"Applying for a job can make someone feel what sort of emotion, even if they get it?",applying for job,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['working hard', 'frustration', 'rejection', 'defeat', 'stress'],
+      dtype=object)}",E
+eaf980db7e945b1cf6d648fa55ddcb5e,What is the feeling of one having fun?,having fun,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['smiling', 'pleasure', 'hurt', 'injuries', 'laughter'],
+      dtype=object)}",B
+5c224410a40c9269b1e542cfcb430d35,Where do people want to have a lot of coffee?,cup of coffee,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['table', 'office', 'desk', 'kitchen', 'ocean'], dtype=object)}",B
+1ddd239a2a6438a891cb411b82e7f450,Sally was bored because she didn't like the junk that was on what?,junk,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['drawer', 'garage', 'caddy', 'bed', 'television'], dtype=object)}",E
+5f4825137a27f369fe859e85dfe1793f,"If I am suffering from boredom, and I want to see something beautiful, what should I do?",boredom,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['see art', 'see ghost', 'watch film', 'grocery shop',
+       'do crossword puzzle'], dtype=object)}",A
+c961578f4c5768b67b843e5d2ce18452,Blowfish require what specific thing to live?,blowfish,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['sea water', 'hatred', 'fish market', 'body of water', 'jungle'],
+      dtype=object)}",A
+3526550b02d9594abd4fc43553010fc6,"The dad wanted to protect his house, where did he put his gun?",gun,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['police station', 'crime scene', 'restroom', 'drawer', 'holster'],
+      dtype=object)}",D
+bee2a6eadfaf7a4fa0a214e341ddbe5b,If you turn off the music in a room with no other noise that room would be what?,music,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['silent', 'opera', 'silence', 'television', 'elevator'],
+      dtype=object)}",A
+1a4e83b433620cb2d7d806882f8d57e4,What is it called when a person with mental illness is able to lead a relatively normal life?,mental illness,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['managed', 'effectively treated', 'recur', 'cause delusion',
+       'illusion'], dtype=object)}",A
+f1368ab1d4ee05d72d555474fcd737d7,"If chewing food is difficult for you, what is a possible reason?",chewing food,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['broken jaw', 'sore mouth', 'eating', 'good digestion',
+       'avoiding choking'], dtype=object)}",B
+5516b1c93f94aaa0bf9a4c7b124788d4,How is a person likely to communicatewith others?,person,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['say words', 'meet friends', 'open mouth', 'thank god',
+       'die of cancer'], dtype=object)}",A
+3a6140e475cbbd3ee1da5ba9a6953597_1,Where would you expect to find a dictionary along side other writings you can borrow?,dictionary,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['classroom', 'shelf', 'explain meaning of words', 'table',
+       'library'], dtype=object)}",E
+6714487b839f648e348ac972ed114af3,What would you do if you have curiosity but are blind and paralyzed?,curiosity,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['hear news', 'analyse', 'go somewhere', 'examine thing',
+       'see favorite show'], dtype=object)}",B
+3ffe67fb009529d9b0c49ccd7141ee4a,"At a grocery store they sell individual potatoes, where does the grocery clerk likely put the potato?",potato,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['boiling water', 'root cellar', 'rocket ship', 'paper bag',
+       'underground'], dtype=object)}",D
+b8b287b6277fccd4b7c9c72577177328,Where could you find a toilet that only friends can use?,toilet,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['rest area', 'school', 'stadium', 'apartment', 'hospital'],
+      dtype=object)}",D
+5ff6ce8ad88459272ffe23d33db4970a,John felt a snake slither over him as he rested.  He was afraid to raise his covers for fear of startling it.  Where might he be?,snake,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['pet shops', 'oklahoma', 'basement', 'bedroom', 'dreams'],
+      dtype=object)}",D
+4b7d1b70060cd1f1a7321795f62a7325,Where is a handy place to store a steel pen in your office?,steel pen,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['car shop', 'desk drawer', 'car.', 'warehouse', 'hand'],
+      dtype=object)}",B
+5d809e0ee19badc66071653630ea7c51,"George checked the rotor of the Apache, which wasn't powered by internal combustion, but by what?",rotor,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['jet engine', 'helicopter', 'electric motor', 'rotator',
+       'electrical circuit'], dtype=object)}",A
+ec5a336080e37fbe95d72ad5f9c65ba7,If a person with mental illness stops treatment what will likely happen?,mental illness,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['managed', 'dancing', 'recur', 'effectively treated',
+       'cause suffering'], dtype=object)}",C
+111501a49dd41ceed9c2073eed5d2b72,"I you believe in god, where will you go when you die?",god,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['heaven', 'church', 'imagination', 'synagogue', 'monastery'],
+      dtype=object)}",A
+48abc2c113623fd72f758502529f93a5,"By learning about the world, many poor college students gain what?",learning about world,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['pleasure', 'greater mobility', 'desire to travel',
+       'global warming', 'increased security'], dtype=object)}",C
+8d3dc21a53523850ec80771daaa5ff20,James wanted to find an old underground map from the 50s.  Where might he look for one?,underground map,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['library', 'subway station', ""county engineer's office"",
+       'super market', 'home'], dtype=object)}",A
+533599262a5dae7c7137cfe69e0e24fb,"There was a long cottage somewhere.  People thought it was haunted.  It was overgrown, there was nothing near it.  It's was far into the what?",cottage,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['mountains', 'countryside', 'train', 'painting', 'village'],
+      dtype=object)}",B
+1ca3cd9475d7e9da2ddb74911ee2bb68,"If a lizard is fed by people every day, what has happened to it?",lizard,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['documentary', 'costa rica', 'garden', 'encouragement',
+       'captivity'], dtype=object)}",E
+43df3a316880d8bab346c06bd43b94dd,If you are committing perjury you have done what while under oath?,committing perjury,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['crime', 'disrespect judge', 'embarrassment', 'lie', 'indictment'],
+      dtype=object)}",D
+d986f17acb3ed19c77e3ca3f98c026b9,"She had an interest in the man, what did she want to do with him?",interest,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['see particular program', 'see exhibits', 'see people play game',
+       'have conversation', 'watch film'], dtype=object)}",D
+b6bbe013995fdb5def3d504319af0791,The table wasn't level.  some parts were higher and some were lower with no rhyme or reason.   It was very what?,level,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['electrical circuit', 'build evenly', 'uneven', 'unbalanced',
+       'tilted'], dtype=object)}",C
+df3d27338bcf86b341b8b02d4309daf5,Where do you keep your pizza slice before you eat it?,pizza,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['table', 'plate', 'restaurant', 'oven', 'popular'], dtype=object)}",B
+72611791cdcb040f2d699827fb9cebc4,What is a person looking for when completing puzzles or riddles?,person,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['avoid pain', 'compliments', 'intellectual challenge',
+       'passing grade', 'attention'], dtype=object)}",C
+93bbaccb1c46d22124a846b8514de5bc,The bald eagle flew from Mount St Helen's to the Puget Sound and all over what?,bald eagle,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['washington state', 'utah', 'pacific northwest',
+       'northern california', 'the desert'], dtype=object)}",A
+520b0eea9148e3cb4d45aa69a55491eb,What kind of cold storage could you find in your house?,cold storage,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['ice pack', 'freezer', 'laboratory', 'warehouse', 'refrigerator'],
+      dtype=object)}",E
+ed50555f8db2b8f66caf9868dcd7e13b,"No matter what date you put on it, we all know the universe to be what?",universe,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['very old', 'infiniverse', 'getting younger', 'infinite', 'real'],
+      dtype=object)}",A
+91f512273a2da7ae796919069b20d6cf,"Because John was first violin, he had to bring something important to work ever day. What did he need to bring to work?",first violin,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['music store', 'obesity', 'symphony orchestra', 'ochestra',
+       'violin case'], dtype=object)}",E
+c1c73ef0ff662a76cd42c3500240974a,"If I want a new ottoman, where should I go?",ottoman,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['furniture store', 'parlor', 'turkey', 'living room', 'den'],
+      dtype=object)}",A
+83dad4fe630fddbdcd5b18ef890c66f2,What is the likely result of buying products in excess?,buying products,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['running out of money', 'spending money', 'poverty',
+       'comparison shopping', 'overstocking'], dtype=object)}",E
+c39131d979c9205c11d0e109e18188e4,To what do trees roots cling?,trees,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['yard', 'orchard', 'museum', 'countryside', 'surface of earth'],
+      dtype=object)}",E
+858a5eaa587fe0e266722228671a6bd1,"Where can you find the meaning of ""ficus""?",ficus,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['dictionary', 'apartment', 'libary', 'middle east', 'arboretum'],
+      dtype=object)}",A
+4a4f6408fae400ce0beb5bea0f9913e9,Where is a drug kept in a home bathroom?,drug,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['nursery', 'ghetto', 'cupboard', 'pharmacy', 'medicine cabinet'],
+      dtype=object)}",E
+6544a50bf9563d52dbd2034e81df0bf3,"The lion sensed his competitor was timid, so what attitude did the lion take?",timid,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['reckless', 'bellicose', 'defensive', 'aggressive', 'dauntless'],
+      dtype=object)}",D
+95acebea992a26c3a7c3bfb45845fa83,"If a reception is held with hotel guests walking by, what is the likely venue?",reception,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['room service', 'church basement', 'lobby', 'large room',
+       'country club'], dtype=object)}",C
+0b52cc905fff0ca69a45e6353d10e401,Where would you put a dollar if you want to go to a store and buy something with it?,dollar,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['cash drawer', 'teh bank', 'safety deposit box', 'pocket',
+       'piggy bank'], dtype=object)}",D
+061f326d2a87a10da6316b55bd5522bd,John bought a new water hose.  But he found his old one near his car.  Where did he find the old one?,hose,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['garden shed', 'hardware store', 'greenhouse', 'garage',
+       'in a van'], dtype=object)}",D
+bc08c354e5bead6863ea4a29cb8fa359,What kind of tale might feature a talking weasel?,weasel,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['mulberry bush', 'animated film', 'chicken coop', 'history book',
+       ""children's story""], dtype=object)}",E
+001cb999a61a5c8b4031ff53cf261714,"John needed a straight wire.  Unfortunately, this one had endured some abuse and had become what?",straight,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['bent', 'bent', 'crooked', 'straightforth', 'curved'], dtype=object)}",A
+a2e0f6b5651e5271fcff8d6f5c9adfee,"A person with digestion issues eats a meat-filled breakfast, what does he feel?",eating breakfast,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['heartburn', 'overeating', 'happiness', 'being satisfied',
+       'gain energy'], dtype=object)}",A
+3df1b88da6a90c9526be2c8a6cc736dc,Billy saw a dog running from him and did his best to get away from it.  The leaped up to where the dog couldn't reach and was stuck.  Where might he have been trapped?,dog,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['kennel', 'table', 'porch', 'backyard', 'park'], dtype=object)}",B
+a478e8b7c049781574f7fbb11ba1eec0,Where is the sky most beautiful?,sky,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['planetarium', 'outdoors', 'atmosphere', 'night', 'photo'],
+      dtype=object)}",B
+2ec7f8fe7948f9997e73f9bff7ba6e05,What do most companies not want to have relative to demand?,want,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['oversupply', 'plentitude', 'stockpile', 'superabundance', 'busy'],
+      dtype=object)}",A
+e89a2762d578cb7bc2cc0a5b2a16d933,What kind of feelings does buying presents for others create?,buy presents for others,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['tears', 'please', 'like', 'thank', 'make happy'], dtype=object)}",E
+a585df0818180ce3c06f963a4c3c810a,"If someone mean wanted to insult somebody by calling them a fruit, where is probably not the smartest place to do it?",fruit,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['gay bar', 'market', 'grocery store', 'refrigerator', 'container'],
+      dtype=object)}",A
+f20d40bc4af588223e880e0bb58b27b8,What is the primary purpose of cars?,cars,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['cost money', 'slow down', 'move people', 'turn right',
+       'get girls'], dtype=object)}",C
+8ae24d3ff199077a59e0d970feb665b7,"A car was hailed to chauffeur someone to the opera house, where was it heading?",car,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['go downtown', 'appear suddenly', 'go fast', 'bottom out', 'east'],
+      dtype=object)}",A
+57a343d72031b668e5eb91868420e915,Where would you get a shower curtain if you do not have one?,shower curtain,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['department store', 'restaurant', 'hotel', 'dime store', 'bathtub'],
+      dtype=object)}",A
+0f4159e80f8dbf682819215bbf0f5b5a_1,"If you're remembering something, it's because of your what of it to begin with?",remembering,"{'label': array(['A', 'B', 'C', 'D', 'E'], dtype=object), 'text': array(['knowledge', 'knowing', 'forgetful', 'pleasure', 'depression'],
+      dtype=object)}",B
+d867f76d000bdb59b9b4cb982bd7f0a0,Joe was thrown from his boat into the water. The water was cold because it was the middle of winter and he cried out to his crew for help. They couldn't hear him over the sound of the what?,water,"{
+""label"": [
+""A"",
+""B"",
+""C"",
+""D"",
+""E""
+],
+""text"": [
+""surface of earth"",
+""teardrops"",
+""snowflake"",
+""typhoon"",
+""motor""
+]
+}",D
+41bab71fea3fa04e5a4e10a2f86996df,"The architect thought that a mezzanine would look good, but the planning committee rejected it. They told the architect that they felt it was a potential hazard given the ages of the people who would be using it. What might they be designing?",mezzanine,"{
+""label"": [
+""A"",
+""B"",
+""C"",
+""D"",
+""E""
+],
+""text"": [
+""actors"",
+""theater"",
+""concert hall"",
+""floors"",
+""school""
+]
+}",E
+5efadabaf61b5174916e3ab659bcd283,"Danny found that the carpet did not ,match the drapes, which was disappointing, because this place was expensive. But it was the only place in town that wasn't booked solid for the week and he needed it while he was in town, so he couldn't complain. Where might this place be?",carpet,"{
+""label"": [
+""A"",
+""B"",
+""C"",
+""D"",
+""E""
+],
+""text"": [
+""brothel"",
+""restaurant"",
+""building"",
+""bowling alley"",
+""at hotel""
+]
+}",E

@@ -1,0 +1,2145 @@
+{
+    "metadata": {
+        "eval_mode": "SingleModel_Intrinsic_Performance_CommonsenseQA",
+        "model": "qwen/qwen-2.5-7b-instruct",
+        "dataset": "CommonsenseQA",
+        "total_questions": 125,
+        "start_question_idx": -1,
+        "start_time": "2025-12-09T20:09:05.411589",
+        "resume_time": "2025-12-09T20:09:05.381151",
+        "end_time": "2025-12-09T20:12:28.027017",
+        "processed_count": 125,
+        "correct_count": 70,
+        "accuracy": 0.56,
+        "total_runtime_seconds": 202.65,
+        "total_runtime_formatted": "3.38分钟",
+        "average_time_per_question": 1.62
+    },
+    "results": [
+        {
+            "question_idx": 0,
+            "question": "Where would you get some maps that you own?",
+            "options": [
+                "A.bookstore",
+                "B.library",
+                "C.electrical circuit",
+                "D.cabinet",
+                "E.important when traveling"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where would you get some maps that you own?\n\n选项：\nA.bookstore\nB.library\nC.electrical circuit\nD.cabinet\nE.important when traveling\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:07.386351"
+        },
+        {
+            "question_idx": 1,
+            "question": "Where would you find a single shower curtain being used?",
+            "options": [
+                "A.bathtub",
+                "B.washing area",
+                "C.hotel",
+                "D.shower stall",
+                "E.department store"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where would you find a single shower curtain being used?\n\n选项：\nA.bathtub\nB.washing area\nC.hotel\nD.shower stall\nE.department store\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:09:08.701236"
+        },
+        {
+            "question_idx": 2,
+            "question": "He walked into the room and had a great shock, his friends had what him?",
+            "options": [
+                "A.expected",
+                "B.wanting",
+                "C.calm",
+                "D.thundershock",
+                "E.surprised"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：He walked into the room and had a great shock, his friends had what him?\n\n选项：\nA.expected\nB.wanting\nC.calm\nD.thundershock\nE.surprised\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:10.591627"
+        },
+        {
+            "question_idx": 3,
+            "question": "The audience listened to the orchestra play, where were they watching the performance?",
+            "options": [
+                "A.concert hall",
+                "B.museum",
+                "C.school",
+                "D.hockey game",
+                "E.sporting event"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：The audience listened to the orchestra play, where were they watching the performance?\n\n选项：\nA.concert hall\nB.museum\nC.school\nD.hockey game\nE.sporting event\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:11.749063"
+        },
+        {
+            "question_idx": 4,
+            "question": "Where could you find hundreds of beauty salon?",
+            "options": [
+                "A.clerk",
+                "B.mall",
+                "C.strip mall",
+                "D.city",
+                "E.neighborhood"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where could you find hundreds of beauty salon?\n\n选项：\nA.clerk\nB.mall\nC.strip mall\nD.city\nE.neighborhood\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:09:13.657237"
+        },
+        {
+            "question_idx": 5,
+            "question": "If my husband never helps me doing housework, what might that lead to?",
+            "options": [
+                "A.boredom",
+                "B.arguments",
+                "C.headache",
+                "D.exhaustion",
+                "E.park"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If my husband never helps me doing housework, what might that lead to?\n\n选项：\nA.boredom\nB.arguments\nC.headache\nD.exhaustion\nE.park\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:16.459083"
+        },
+        {
+            "question_idx": 6,
+            "question": "Before racers start to run they must do what at the starting line?",
+            "options": [
+                "A.learn to walk",
+                "B.walking",
+                "C.walk slowly",
+                "D.breathe",
+                "E.stand still"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Before racers start to run they must do what at the starting line?\n\n选项：\nA.learn to walk\nB.walking\nC.walk slowly\nD.breathe\nE.stand still\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:17.580222"
+        },
+        {
+            "question_idx": 7,
+            "question": "The teens were trying to hide that they get drink, but when they walked in the door their what gave it away?",
+            "options": [
+                "A.health",
+                "B.fall down",
+                "C.stagger",
+                "D.get arrested",
+                "E.vomit"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：The teens were trying to hide that they get drink, but when they walked in the door their what gave it away?\n\n选项：\nA.health\nB.fall down\nC.stagger\nD.get arrested\nE.vomit\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:18.705583"
+        },
+        {
+            "question_idx": 8,
+            "question": "What happens when to ice when it is in the sun?",
+            "options": [
+                "A.carved",
+                "B.melted",
+                "C.ice cream",
+                "D.antarctica",
+                "E.sculptured"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What happens when to ice when it is in the sun?\n\n选项：\nA.carved\nB.melted\nC.ice cream\nD.antarctica\nE.sculptured\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:19.879044"
+        },
+        {
+            "question_idx": 9,
+            "question": "Where would a person light alcohol on fire to observe the reaction?",
+            "options": [
+                "A.supermarket",
+                "B.bar",
+                "C.pub",
+                "D.restaurants",
+                "E.chemistry lab"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where would a person light alcohol on fire to observe the reaction?\n\n选项：\nA.supermarket\nB.bar\nC.pub\nD.restaurants\nE.chemistry lab\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:21.030576"
+        },
+        {
+            "question_idx": 10,
+            "question": "What could happen to a cat other than wanting food?",
+            "options": [
+                "A.feline",
+                "B.thirsty",
+                "C.sharp claws",
+                "D.pussycat",
+                "E.hungry"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What could happen to a cat other than wanting food?\n\n选项：\nA.feline\nB.thirsty\nC.sharp claws\nD.pussycat\nE.hungry\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:09:22.178693"
+        },
+        {
+            "question_idx": 11,
+            "question": "Dan was ditting quietly on the couch with a book in his hand.  Laurie thought that he was just focused on what he was doing, but he actually did what?",
+            "options": [
+                "A.eat",
+                "B.think",
+                "C.reading",
+                "D.meditate",
+                "E.fall asleep"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Dan was ditting quietly on the couch with a book in his hand.  Laurie thought that he was just focused on what he was doing, but he actually did what?\n\n选项：\nA.eat\nB.think\nC.reading\nD.meditate\nE.fall asleep\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:23.332807"
+        },
+        {
+            "question_idx": 12,
+            "question": "What blocks sunshine?",
+            "options": [
+                "A.summer",
+                "B.park",
+                "C.desktop",
+                "D.sea",
+                "E.moon"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What blocks sunshine?\n\n选项：\nA.summer\nB.park\nC.desktop\nD.sea\nE.moon\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:24.619602"
+        },
+        {
+            "question_idx": 13,
+            "question": "James found the sound relaxing.   It was so relaxing he almost did what despite his efforts?",
+            "options": [
+                "A.deep breathing",
+                "B.worried",
+                "C.fall asleep",
+                "D.invigorating",
+                "E.feeling good"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：James found the sound relaxing.   It was so relaxing he almost did what despite his efforts?\n\n选项：\nA.deep breathing\nB.worried\nC.fall asleep\nD.invigorating\nE.feeling good\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:26.208567"
+        },
+        {
+            "question_idx": 14,
+            "question": "The place where my linen closet is really needs repainting a light color as it only has one overhead light.",
+            "options": [
+                "A.house",
+                "B.home",
+                "C.pool house",
+                "D.hallway",
+                "E.bedroom"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：The place where my linen closet is really needs repainting a light color as it only has one overhead light.\n\n选项：\nA.house\nB.home\nC.pool house\nD.hallway\nE.bedroom\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:09:27.425841"
+        },
+        {
+            "question_idx": 15,
+            "question": "How is riding a bike getting it to move?",
+            "options": [
+                "A.practice",
+                "B.sense of balance",
+                "C.driving",
+                "D.good balance",
+                "E.pedalling"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：How is riding a bike getting it to move?\n\n选项：\nA.practice\nB.sense of balance\nC.driving\nD.good balance\nE.pedalling\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:28.522042"
+        },
+        {
+            "question_idx": 16,
+            "question": "What does a stove do to the place that it's in?",
+            "options": [
+                "A.cool house",
+                "B.warm room",
+                "C.gas or electric",
+                "D.burn child",
+                "E.brown meat"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What does a stove do to the place that it's in?\n\n选项：\nA.cool house\nB.warm room\nC.gas or electric\nD.burn child\nE.brown meat\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:29.633785"
+        },
+        {
+            "question_idx": 17,
+            "question": "What is likely to be found in a book that is not a foreword?",
+            "options": [
+                "A.last word",
+                "B.conclusion",
+                "C.ikea instructions",
+                "D.afterword",
+                "E.epilogue"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What is likely to be found in a book that is not a foreword?\n\n选项：\nA.last word\nB.conclusion\nC.ikea instructions\nD.afterword\nE.epilogue\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:09:30.758770"
+        },
+        {
+            "question_idx": 18,
+            "question": "James looked up and saw the start twinkling in the black yonder.  He marveled the sheer number of them and the size of what?",
+            "options": [
+                "A.universe",
+                "B.orbit",
+                "C.night sky",
+                "D.outer space",
+                "E.his wallet"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：James looked up and saw the start twinkling in the black yonder.  He marveled the sheer number of them and the size of what?\n\n选项：\nA.universe\nB.orbit\nC.night sky\nD.outer space\nE.his wallet\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:09:32.110466"
+        },
+        {
+            "question_idx": 19,
+            "question": "How can someone be let into a brownstone?",
+            "options": [
+                "A.brooklyn",
+                "B.ring",
+                "C.subdivision",
+                "D.bricks",
+                "E.new york city"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：How can someone be let into a brownstone?\n\n选项：\nA.brooklyn\nB.ring\nC.subdivision\nD.bricks\nE.new york city\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:34.180507"
+        },
+        {
+            "question_idx": 20,
+            "question": "Where are horses judged on appearance?",
+            "options": [
+                "A.race track",
+                "B.fair",
+                "C.raised by humans",
+                "D.in a field",
+                "E.countryside"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where are horses judged on appearance?\n\n选项：\nA.race track\nB.fair\nC.raised by humans\nD.in a field\nE.countryside\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:37.858956"
+        },
+        {
+            "question_idx": 21,
+            "question": "Why do most people take a quick rest during the day?",
+            "options": [
+                "A.need to",
+                "B.hungry",
+                "C.feel more energetic",
+                "D.weak",
+                "E.regenerate"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Why do most people take a quick rest during the day?\n\n选项：\nA.need to\nB.hungry\nC.feel more energetic\nD.weak\nE.regenerate\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:09:38.974237"
+        },
+        {
+            "question_idx": 22,
+            "question": "What does an actor do when they are bored of their roles?",
+            "options": [
+                "A.mask",
+                "B.branch out",
+                "C.wear costume",
+                "D.pretend",
+                "E.sing songs"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What does an actor do when they are bored of their roles?\n\n选项：\nA.mask\nB.branch out\nC.wear costume\nD.pretend\nE.sing songs\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:41.337373"
+        },
+        {
+            "question_idx": 23,
+            "question": "Where can you find a place to eat in an urban area close to local nightlife?",
+            "options": [
+                "A.city",
+                "B.downtown",
+                "C.mall",
+                "D.shopping center",
+                "E.own house"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where can you find a place to eat in an urban area close to local nightlife?\n\n选项：\nA.city\nB.downtown\nC.mall\nD.shopping center\nE.own house\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:43.321193"
+        },
+        {
+            "question_idx": 24,
+            "question": "Where would stones not be arranged in a path?",
+            "options": [
+                "A.quarries",
+                "B.field",
+                "C.park",
+                "D.bridge",
+                "E.made from rocks"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where would stones not be arranged in a path?\n\n选项：\nA.quarries\nB.field\nC.park\nD.bridge\nE.made from rocks\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:09:46.106091"
+        },
+        {
+            "question_idx": 25,
+            "question": "What is someone who isn't clever, bright, or competent called?",
+            "options": [
+                "A.clumsy",
+                "B.ineffectual",
+                "C.dull",
+                "D.clumsy",
+                "E.stupid"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What is someone who isn't clever, bright, or competent called?\n\n选项：\nA.clumsy\nB.ineffectual\nC.dull\nD.clumsy\nE.stupid\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:47.480664"
+        },
+        {
+            "question_idx": 26,
+            "question": "A showroom feature washers and refrigerators, where is this showroom located?",
+            "options": [
+                "A.appliance store",
+                "B.vegas",
+                "C.electronics store",
+                "D.car dealership",
+                "E.kitchen"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：A showroom feature washers and refrigerators, where is this showroom located?\n\n选项：\nA.appliance store\nB.vegas\nC.electronics store\nD.car dealership\nE.kitchen\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:48.786285"
+        },
+        {
+            "question_idx": 27,
+            "question": "James was someone who was caught in his own delusions.  To him, the truth didn't do what what?",
+            "options": [
+                "A.work to advantage",
+                "B.matter to",
+                "C.help",
+                "D.free mind",
+                "E.further knowledge"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：James was someone who was caught in his own delusions.  To him, the truth didn't do what what?\n\n选项：\nA.work to advantage\nB.matter to\nC.help\nD.free mind\nE.further knowledge\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:50.103706"
+        },
+        {
+            "question_idx": 28,
+            "question": "What furniture will you normally find near a side chair?",
+            "options": [
+                "A.bedroom",
+                "B.table",
+                "C.wheel barrow",
+                "D.building",
+                "E.office"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What furniture will you normally find near a side chair?\n\n选项：\nA.bedroom\nB.table\nC.wheel barrow\nD.building\nE.office\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:51.458609"
+        },
+        {
+            "question_idx": 29,
+            "question": "The dogs were protecting their own when they decided to what the bad man?",
+            "options": [
+                "A.bad breath",
+                "B.defend",
+                "C.run fast",
+                "D.ocean",
+                "E.attack"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：The dogs were protecting their own when they decided to what the bad man?\n\n选项：\nA.bad breath\nB.defend\nC.run fast\nD.ocean\nE.attack\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:09:52.838889"
+        },
+        {
+            "question_idx": 30,
+            "question": "What does a self assured person often do?",
+            "options": [
+                "A.acknowledgment",
+                "B.focused",
+                "C.know what time",
+                "D.feel important",
+                "E.trust himself"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What does a self assured person often do?\n\n选项：\nA.acknowledgment\nB.focused\nC.know what time\nD.feel important\nE.trust himself\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:09:54.004486"
+        },
+        {
+            "question_idx": 31,
+            "question": "What does a person with a what likely do?",
+            "options": [
+                "A.feel important",
+                "B.trust himself",
+                "C.own house",
+                "D.electrical circuit",
+                "E.know what time"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What does a person with a what likely do?\n\n选项：\nA.feel important\nB.trust himself\nC.own house\nD.electrical circuit\nE.know what time\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:09:55.107196"
+        },
+        {
+            "question_idx": 32,
+            "question": "What could happen to you after you are cleaning house for a long time?",
+            "options": [
+                "A.neatness",
+                "B.tiredness",
+                "C.order",
+                "D.exhaustion",
+                "E.sneezing"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What could happen to you after you are cleaning house for a long time?\n\n选项：\nA.neatness\nB.tiredness\nC.order\nD.exhaustion\nE.sneezing\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:09:56.225959"
+        },
+        {
+            "question_idx": 33,
+            "question": "Where can many stores with clothing be found?",
+            "options": [
+                "A.shop",
+                "B.mall",
+                "C.department store",
+                "D.drawer",
+                "E.library"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where can many stores with clothing be found?\n\n选项：\nA.shop\nB.mall\nC.department store\nD.drawer\nE.library\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:57.635308"
+        },
+        {
+            "question_idx": 34,
+            "question": "The business men left the discussion in the dressing room, now they just wanted to relax in the sauna of the what?",
+            "options": [
+                "A.brush hair",
+                "B.theater",
+                "C.house",
+                "D.dwelling",
+                "E.bathhouse"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：The business men left the discussion in the dressing room, now they just wanted to relax in the sauna of the what?\n\n选项：\nA.brush hair\nB.theater\nC.house\nD.dwelling\nE.bathhouse\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:09:58.787435"
+        },
+        {
+            "question_idx": 35,
+            "question": "I saw the receptionist carelessly toss my resume into the drawer, where did I want it to end up?",
+            "options": [
+                "A.file cabinet",
+                "B.nightstand",
+                "C.kitchen cabinet",
+                "D.office desk",
+                "E.the floor"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：I saw the receptionist carelessly toss my resume into the drawer, where did I want it to end up?\n\n选项：\nA.file cabinet\nB.nightstand\nC.kitchen cabinet\nD.office desk\nE.the floor\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:10:00.237812"
+        },
+        {
+            "question_idx": 36,
+            "question": "Dan fell off a bar stool.  He did this because he was what than ever before?",
+            "options": [
+                "A.kitchen",
+                "B.drunker",
+                "C.tavern",
+                "D.restaurant",
+                "E.shorter"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Dan fell off a bar stool.  He did this because he was what than ever before?\n\n选项：\nA.kitchen\nB.drunker\nC.tavern\nD.restaurant\nE.shorter\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:01.360928"
+        },
+        {
+            "question_idx": 37,
+            "question": "If you have a condo in a Wisconsin city known for beer, where are you?",
+            "options": [
+                "A.city",
+                "B.electrical circuit",
+                "C.residential area",
+                "D.suburbia",
+                "E.milwaukee"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If you have a condo in a Wisconsin city known for beer, where are you?\n\n选项：\nA.city\nB.electrical circuit\nC.residential area\nD.suburbia\nE.milwaukee\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:02.836534"
+        },
+        {
+            "question_idx": 38,
+            "question": "How would you express information if you do not have a pen or pencil?",
+            "options": [
+                "A.may disagree",
+                "B.close mouth",
+                "C.write down",
+                "D.talk",
+                "E.eyes"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：How would you express information if you do not have a pen or pencil?\n\n选项：\nA.may disagree\nB.close mouth\nC.write down\nD.talk\nE.eyes\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:04.569615"
+        },
+        {
+            "question_idx": 39,
+            "question": "What western state has thousands of miles of shore?",
+            "options": [
+                "A.picture of sea side",
+                "B.seaside town",
+                "C.beach",
+                "D.california",
+                "E.see side picture"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What western state has thousands of miles of shore?\n\n选项：\nA.picture of sea side\nB.seaside town\nC.beach\nD.california\nE.see side picture\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:05.904894"
+        },
+        {
+            "question_idx": 40,
+            "question": "Metal is used to make what?",
+            "options": [
+                "A.junkyard",
+                "B.ore",
+                "C.instruments",
+                "D.metal fabrication shop",
+                "E.bowls"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Metal is used to make what?\n\n选项：\nA.junkyard\nB.ore\nC.instruments\nD.metal fabrication shop\nE.bowls\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:06.996456"
+        },
+        {
+            "question_idx": 41,
+            "question": "Where is a broadcast studio likely to be heard?",
+            "options": [
+                "A.microphone",
+                "B.arena",
+                "C.radio station",
+                "D.trees",
+                "E.town"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where is a broadcast studio likely to be heard?\n\n选项：\nA.microphone\nB.arena\nC.radio station\nD.trees\nE.town\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:08.119490"
+        },
+        {
+            "question_idx": 42,
+            "question": "We are all human, and we all what?",
+            "options": [
+                "A.write",
+                "B.eat cake",
+                "C.smile",
+                "D.think critically",
+                "E.die"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：We are all human, and we all what?\n\n选项：\nA.write\nB.eat cake\nC.smile\nD.think critically\nE.die\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:09.241898"
+        },
+        {
+            "question_idx": 43,
+            "question": "A man takes a seat at a museum outside of Barcelona, where is he likely?",
+            "options": [
+                "A.in cinema",
+                "B.martorell",
+                "C.falling down",
+                "D.show",
+                "E.airplane"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：A man takes a seat at a museum outside of Barcelona, where is he likely?\n\n选项：\nA.in cinema\nB.martorell\nC.falling down\nD.show\nE.airplane\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:10.738008"
+        },
+        {
+            "question_idx": 44,
+            "question": "If you're buying beer for a float trip what are you preparing to do?",
+            "options": [
+                "A.get arrested",
+                "B.have fun",
+                "C.get sick",
+                "D.spend money",
+                "E.stupidity"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If you're buying beer for a float trip what are you preparing to do?\n\n选项：\nA.get arrested\nB.have fun\nC.get sick\nD.spend money\nE.stupidity\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:12.895993"
+        },
+        {
+            "question_idx": 45,
+            "question": "John wanted to clean all of the dust out of his place before settling down to watch his favorite shows.  What might he hardest do dust?",
+            "options": [
+                "A.closet",
+                "B.under the bed",
+                "C.television",
+                "D.attic",
+                "E.most buildings"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：John wanted to clean all of the dust out of his place before settling down to watch his favorite shows.  What might he hardest do dust?\n\n选项：\nA.closet\nB.under the bed\nC.television\nD.attic\nE.most buildings\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:10:14.314387"
+        },
+        {
+            "question_idx": 46,
+            "question": "He was beginning to worry they wouldn't get on the ride before closing, they had been standing in queue for a long what?",
+            "options": [
+                "A.frustration",
+                "B.waiting",
+                "C.hair",
+                "D.time",
+                "E.patience"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：He was beginning to worry they wouldn't get on the ride before closing, they had been standing in queue for a long what?\n\n选项：\nA.frustration\nB.waiting\nC.hair\nD.time\nE.patience\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:10:15.422975"
+        },
+        {
+            "question_idx": 47,
+            "question": "Where is a doormat likely to be in front of?",
+            "options": [
+                "A.facade",
+                "B.front door",
+                "C.doorway",
+                "D.entrance porch",
+                "E.hallway"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where is a doormat likely to be in front of?\n\n选项：\nA.facade\nB.front door\nC.doorway\nD.entrance porch\nE.hallway\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:16.660163"
+        },
+        {
+            "question_idx": 48,
+            "question": "A farmer sees a weasel in the woods, where is the farmer?",
+            "options": [
+                "A.chicken coop",
+                "B.beach",
+                "C.fairytale",
+                "D.great outdoors",
+                "E.corn fields"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：A farmer sees a weasel in the woods, where is the farmer?\n\n选项：\nA.chicken coop\nB.beach\nC.fairytale\nD.great outdoors\nE.corn fields\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:17.785307"
+        },
+        {
+            "question_idx": 49,
+            "question": "When you fail to finish something, you failed at doing what to it",
+            "options": [
+                "A.winning",
+                "B.passing",
+                "C.completing",
+                "D.do well",
+                "E.succeeding"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：When you fail to finish something, you failed at doing what to it\n\n选项：\nA.winning\nB.passing\nC.completing\nD.do well\nE.succeeding\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:19.136028"
+        },
+        {
+            "question_idx": 50,
+            "question": "Where do people get beer after a bit of gambling?",
+            "options": [
+                "A.bottle",
+                "B.grocery store",
+                "C.casino",
+                "D.spaceship",
+                "E.hockey game"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where do people get beer after a bit of gambling?\n\n选项：\nA.bottle\nB.grocery store\nC.casino\nD.spaceship\nE.hockey game\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:20.267525"
+        },
+        {
+            "question_idx": 51,
+            "question": "Kissing is normally an activity reserved for your romantic what?",
+            "options": [
+                "A.anus",
+                "B.partner",
+                "C.arousal",
+                "D.trust",
+                "E.cooperation"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Kissing is normally an activity reserved for your romantic what?\n\n选项：\nA.anus\nB.partner\nC.arousal\nD.trust\nE.cooperation\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:21.112119"
+        },
+        {
+            "question_idx": 52,
+            "question": "If you really wanted a grape, where would you go to get it?",
+            "options": [
+                "A.winery",
+                "B.fruit stand",
+                "C.field",
+                "D.kitchen",
+                "E.food"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If you really wanted a grape, where would you go to get it?\n\n选项：\nA.winery\nB.fruit stand\nC.field\nD.kitchen\nE.food\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:10:22.870073"
+        },
+        {
+            "question_idx": 53,
+            "question": "What will god never do according to religion?",
+            "options": [
+                "A.anything",
+                "B.judge people",
+                "C.work miracles",
+                "D.judge men",
+                "E.everywhere"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What will god never do according to religion?\n\n选项：\nA.anything\nB.judge people\nC.work miracles\nD.judge men\nE.everywhere\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:10:24.203747"
+        },
+        {
+            "question_idx": 54,
+            "question": "If I want to open a steakhouse, what should I get first?",
+            "options": [
+                "A.michigan",
+                "B.florida",
+                "C.wine",
+                "D.texas",
+                "E.building"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If I want to open a steakhouse, what should I get first?\n\n选项：\nA.michigan\nB.florida\nC.wine\nD.texas\nE.building\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:25.536506"
+        },
+        {
+            "question_idx": 55,
+            "question": "What is it called when two people in love have children?",
+            "options": [
+                "A.take oath",
+                "B.procreate",
+                "C.matrimony",
+                "D.please parents",
+                "E.live life"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What is it called when two people in love have children?\n\n选项：\nA.take oath\nB.procreate\nC.matrimony\nD.please parents\nE.live life\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:26.898925"
+        },
+        {
+            "question_idx": 56,
+            "question": "More people should lower the guard and just have fun, we don't got long just what?",
+            "options": [
+                "A.enjoy living",
+                "B.happy",
+                "C.enjoyable",
+                "D.get laid",
+                "E.do enjoy"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：More people should lower the guard and just have fun, we don't got long just what?\n\n选项：\nA.enjoy living\nB.happy\nC.enjoyable\nD.get laid\nE.do enjoy\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:10:28.621118"
+        },
+        {
+            "question_idx": 57,
+            "question": "Why might a person be known as a liar?",
+            "options": [
+                "A.have no home",
+                "B.false information",
+                "C.hungry",
+                "D.made fun of",
+                "E.brain tumor"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Why might a person be known as a liar?\n\n选项：\nA.have no home\nB.false information\nC.hungry\nD.made fun of\nE.brain tumor\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:29.979438"
+        },
+        {
+            "question_idx": 58,
+            "question": "What will happen to someone if his or her spirits cannot elevate?",
+            "options": [
+                "A.sadden",
+                "B.demote",
+                "C.depress",
+                "D.drop",
+                "E.decrease"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What will happen to someone if his or her spirits cannot elevate?\n\n选项：\nA.sadden\nB.demote\nC.depress\nD.drop\nE.decrease\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:31.115548"
+        },
+        {
+            "question_idx": 59,
+            "question": "If there is a pond with trees around it, where it it likely located?",
+            "options": [
+                "A.ground",
+                "B.bathroom",
+                "C.forest",
+                "D.countryside",
+                "E.rural area"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If there is a pond with trees around it, where it it likely located?\n\n选项：\nA.ground\nB.bathroom\nC.forest\nD.countryside\nE.rural area\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:10:33.266586"
+        },
+        {
+            "question_idx": 60,
+            "question": "The chef wanted to perfect his craft, what did he do?",
+            "options": [
+                "A.thin potatos",
+                "B.prepare food",
+                "C.study french cooking",
+                "D.drink",
+                "E.cook dinner"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：The chef wanted to perfect his craft, what did he do?\n\n选项：\nA.thin potatos\nB.prepare food\nC.study french cooking\nD.drink\nE.cook dinner\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:34.370157"
+        },
+        {
+            "question_idx": 61,
+            "question": "Joe is a  squirrel, which is an animal. He probably lives in what sort of place.",
+            "options": [
+                "A.pet store",
+                "B.outside",
+                "C.woodland",
+                "D.ocean",
+                "E.cafe"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Joe is a  squirrel, which is an animal. He probably lives in what sort of place.\n\n选项：\nA.pet store\nB.outside\nC.woodland\nD.ocean\nE.cafe\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:35.568352"
+        },
+        {
+            "question_idx": 62,
+            "question": "Why do people play chess on the weekends?",
+            "options": [
+                "A.satisfaction",
+                "B.have fun",
+                "C.thrilling",
+                "D.made",
+                "E.smart"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Why do people play chess on the weekends?\n\n选项：\nA.satisfaction\nB.have fun\nC.thrilling\nD.made\nE.smart\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:39.245263"
+        },
+        {
+            "question_idx": 63,
+            "question": "What does playing soccer and winning lead to?",
+            "options": [
+                "A.excitement",
+                "B.getting tired",
+                "C.overtime",
+                "D.anger",
+                "E.fights"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What does playing soccer and winning lead to?\n\n选项：\nA.excitement\nB.getting tired\nC.overtime\nD.anger\nE.fights\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:40.553321"
+        },
+        {
+            "question_idx": 64,
+            "question": "The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what?",
+            "options": [
+                "A.forrest",
+                "B.barn",
+                "C.public office",
+                "D.out of doors",
+                "E.freezer"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：The weasel was becoming a problem, it kept getting into the chicken eggs kept in the what?\n\n选项：\nA.forrest\nB.barn\nC.public office\nD.out of doors\nE.freezer\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:41.810818"
+        },
+        {
+            "question_idx": 65,
+            "question": "Eating breakfast in bed while seeing a homeless person shivering outside your window may cause you to what?",
+            "options": [
+                "A.mess",
+                "B.hungry",
+                "C.feel guilty",
+                "D.indigestion",
+                "E.spills"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Eating breakfast in bed while seeing a homeless person shivering outside your window may cause you to what?\n\n选项：\nA.mess\nB.hungry\nC.feel guilty\nD.indigestion\nE.spills\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:43.114077"
+        },
+        {
+            "question_idx": 66,
+            "question": "People are what when you're a stranger?",
+            "options": [
+                "A.train",
+                "B.strange",
+                "C.human",
+                "D.stupid",
+                "E.dangerous"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：People are what when you're a stranger?\n\n选项：\nA.train\nB.strange\nC.human\nD.stupid\nE.dangerous\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:44.894390"
+        },
+        {
+            "question_idx": 67,
+            "question": "Where do you throw a ball at pins?",
+            "options": [
+                "A.bowling alley",
+                "B.football stadium",
+                "C.soccer field",
+                "D.sporting event",
+                "E.sporting goods store"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where do you throw a ball at pins?\n\n选项：\nA.bowling alley\nB.football stadium\nC.soccer field\nD.sporting event\nE.sporting goods store\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:47.040863"
+        },
+        {
+            "question_idx": 68,
+            "question": "Applying for a job can make someone feel what sort of emotion, even if they get it?",
+            "options": [
+                "A.working hard",
+                "B.frustration",
+                "C.rejection",
+                "D.defeat",
+                "E.stress"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Applying for a job can make someone feel what sort of emotion, even if they get it?\n\n选项：\nA.working hard\nB.frustration\nC.rejection\nD.defeat\nE.stress\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:51.602420"
+        },
+        {
+            "question_idx": 69,
+            "question": "What is the feeling of one having fun?",
+            "options": [
+                "A.smiling",
+                "B.pleasure",
+                "C.hurt",
+                "D.injuries",
+                "E.laughter"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What is the feeling of one having fun?\n\n选项：\nA.smiling\nB.pleasure\nC.hurt\nD.injuries\nE.laughter\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:52.720797"
+        },
+        {
+            "question_idx": 70,
+            "question": "Where do people want to have a lot of coffee?",
+            "options": [
+                "A.table",
+                "B.office",
+                "C.desk",
+                "D.kitchen",
+                "E.ocean"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where do people want to have a lot of coffee?\n\n选项：\nA.table\nB.office\nC.desk\nD.kitchen\nE.ocean\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:53.836341"
+        },
+        {
+            "question_idx": 71,
+            "question": "Sally was bored because she didn't like the junk that was on what?",
+            "options": [
+                "A.drawer",
+                "B.garage",
+                "C.caddy",
+                "D.bed",
+                "E.television"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Sally was bored because she didn't like the junk that was on what?\n\n选项：\nA.drawer\nB.garage\nC.caddy\nD.bed\nE.television\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:54.964479"
+        },
+        {
+            "question_idx": 72,
+            "question": "If I am suffering from boredom, and I want to see something beautiful, what should I do?",
+            "options": [
+                "A.see art",
+                "B.see ghost",
+                "C.watch film",
+                "D.grocery shop",
+                "E.do crossword puzzle"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If I am suffering from boredom, and I want to see something beautiful, what should I do?\n\n选项：\nA.see art\nB.see ghost\nC.watch film\nD.grocery shop\nE.do crossword puzzle\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:56.070772"
+        },
+        {
+            "question_idx": 73,
+            "question": "Blowfish require what specific thing to live?",
+            "options": [
+                "A.sea water",
+                "B.hatred",
+                "C.fish market",
+                "D.body of water",
+                "E.jungle"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Blowfish require what specific thing to live?\n\n选项：\nA.sea water\nB.hatred\nC.fish market\nD.body of water\nE.jungle\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:10:57.539050"
+        },
+        {
+            "question_idx": 74,
+            "question": "The dad wanted to protect his house, where did he put his gun?",
+            "options": [
+                "A.police station",
+                "B.crime scene",
+                "C.restroom",
+                "D.drawer",
+                "E.holster"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：The dad wanted to protect his house, where did he put his gun?\n\n选项：\nA.police station\nB.crime scene\nC.restroom\nD.drawer\nE.holster\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:10:58.907995"
+        },
+        {
+            "question_idx": 75,
+            "question": "If you turn off the music in a room with no other noise that room would be what?",
+            "options": [
+                "A.silent",
+                "B.opera",
+                "C.silence",
+                "D.television",
+                "E.elevator"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If you turn off the music in a room with no other noise that room would be what?\n\n选项：\nA.silent\nB.opera\nC.silence\nD.television\nE.elevator\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:00.209566"
+        },
+        {
+            "question_idx": 76,
+            "question": "What is it called when a person with mental illness is able to lead a relatively normal life?",
+            "options": [
+                "A.managed",
+                "B.effectively treated",
+                "C.recur",
+                "D.cause delusion",
+                "E.illusion"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What is it called when a person with mental illness is able to lead a relatively normal life?\n\n选项：\nA.managed\nB.effectively treated\nC.recur\nD.cause delusion\nE.illusion\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:11:01.762981"
+        },
+        {
+            "question_idx": 77,
+            "question": "If chewing food is difficult for you, what is a possible reason?",
+            "options": [
+                "A.broken jaw",
+                "B.sore mouth",
+                "C.eating",
+                "D.good digestion",
+                "E.avoiding choking"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If chewing food is difficult for you, what is a possible reason?\n\n选项：\nA.broken jaw\nB.sore mouth\nC.eating\nD.good digestion\nE.avoiding choking\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:03.352270"
+        },
+        {
+            "question_idx": 78,
+            "question": "How is a person likely to communicatewith others?",
+            "options": [
+                "A.say words",
+                "B.meet friends",
+                "C.open mouth",
+                "D.thank god",
+                "E.die of cancer"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：How is a person likely to communicatewith others?\n\n选项：\nA.say words\nB.meet friends\nC.open mouth\nD.thank god\nE.die of cancer\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:05.660505"
+        },
+        {
+            "question_idx": 79,
+            "question": "Where would you expect to find a dictionary along side other writings you can borrow?",
+            "options": [
+                "A.classroom",
+                "B.shelf",
+                "C.explain meaning of words",
+                "D.table",
+                "E.library"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where would you expect to find a dictionary along side other writings you can borrow?\n\n选项：\nA.classroom\nB.shelf\nC.explain meaning of words\nD.table\nE.library\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:07.191258"
+        },
+        {
+            "question_idx": 80,
+            "question": "What would you do if you have curiosity but are blind and paralyzed?",
+            "options": [
+                "A.hear news",
+                "B.analyse",
+                "C.go somewhere",
+                "D.examine thing",
+                "E.see favorite show"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What would you do if you have curiosity but are blind and paralyzed?\n\n选项：\nA.hear news\nB.analyse\nC.go somewhere\nD.examine thing\nE.see favorite show\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:11:08.357676"
+        },
+        {
+            "question_idx": 81,
+            "question": "At a grocery store they sell individual potatoes, where does the grocery clerk likely put the potato?",
+            "options": [
+                "A.boiling water",
+                "B.root cellar",
+                "C.rocket ship",
+                "D.paper bag",
+                "E.underground"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：At a grocery store they sell individual potatoes, where does the grocery clerk likely put the potato?\n\n选项：\nA.boiling water\nB.root cellar\nC.rocket ship\nD.paper bag\nE.underground\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:09.715202"
+        },
+        {
+            "question_idx": 82,
+            "question": "Where could you find a toilet that only friends can use?",
+            "options": [
+                "A.rest area",
+                "B.school",
+                "C.stadium",
+                "D.apartment",
+                "E.hospital"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where could you find a toilet that only friends can use?\n\n选项：\nA.rest area\nB.school\nC.stadium\nD.apartment\nE.hospital\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:10.892248"
+        },
+        {
+            "question_idx": 83,
+            "question": "John felt a snake slither over him as he rested.  He was afraid to raise his covers for fear of startling it.  Where might he be?",
+            "options": [
+                "A.pet shops",
+                "B.oklahoma",
+                "C.basement",
+                "D.bedroom",
+                "E.dreams"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：John felt a snake slither over him as he rested.  He was afraid to raise his covers for fear of startling it.  Where might he be?\n\n选项：\nA.pet shops\nB.oklahoma\nC.basement\nD.bedroom\nE.dreams\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:12.024895"
+        },
+        {
+            "question_idx": 84,
+            "question": "Where is a handy place to store a steel pen in your office?",
+            "options": [
+                "A.car shop",
+                "B.desk drawer",
+                "C.car.",
+                "D.warehouse",
+                "E.hand"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where is a handy place to store a steel pen in your office?\n\n选项：\nA.car shop\nB.desk drawer\nC.car.\nD.warehouse\nE.hand\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:13.877011"
+        },
+        {
+            "question_idx": 85,
+            "question": "George checked the rotor of the Apache, which wasn't powered by internal combustion, but by what?",
+            "options": [
+                "A.jet engine",
+                "B.helicopter",
+                "C.electric motor",
+                "D.rotator",
+                "E.electrical circuit"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：George checked the rotor of the Apache, which wasn't powered by internal combustion, but by what?\n\n选项：\nA.jet engine\nB.helicopter\nC.electric motor\nD.rotator\nE.electrical circuit\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:15.169529"
+        },
+        {
+            "question_idx": 86,
+            "question": "If a person with mental illness stops treatment what will likely happen?",
+            "options": [
+                "A.managed",
+                "B.dancing",
+                "C.recur",
+                "D.effectively treated",
+                "E.cause suffering"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If a person with mental illness stops treatment what will likely happen?\n\n选项：\nA.managed\nB.dancing\nC.recur\nD.effectively treated\nE.cause suffering\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:11:16.564043"
+        },
+        {
+            "question_idx": 87,
+            "question": "I you believe in god, where will you go when you die?",
+            "options": [
+                "A.heaven",
+                "B.church",
+                "C.imagination",
+                "D.synagogue",
+                "E.monastery"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：I you believe in god, where will you go when you die?\n\n选项：\nA.heaven\nB.church\nC.imagination\nD.synagogue\nE.monastery\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:18.418759"
+        },
+        {
+            "question_idx": 88,
+            "question": "By learning about the world, many poor college students gain what?",
+            "options": [
+                "A.pleasure",
+                "B.greater mobility",
+                "C.desire to travel",
+                "D.global warming",
+                "E.increased security"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：By learning about the world, many poor college students gain what?\n\n选项：\nA.pleasure\nB.greater mobility\nC.desire to travel\nD.global warming\nE.increased security\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:11:19.790739"
+        },
+        {
+            "question_idx": 89,
+            "question": "James wanted to find an old underground map from the 50s.  Where might he look for one?",
+            "options": [
+                "A.library",
+                "B.subway station",
+                "C.county engineer's office",
+                "D.super market",
+                "E.home"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：James wanted to find an old underground map from the 50s.  Where might he look for one?\n\n选项：\nA.library\nB.subway station\nC.county engineer's office\nD.super market\nE.home\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:21.596062"
+        },
+        {
+            "question_idx": 90,
+            "question": "There was a long cottage somewhere.  People thought it was haunted.  It was overgrown, there was nothing near it.  It's was far into the what?",
+            "options": [
+                "A.mountains",
+                "B.countryside",
+                "C.train",
+                "D.painting",
+                "E.village"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：There was a long cottage somewhere.  People thought it was haunted.  It was overgrown, there was nothing near it.  It's was far into the what?\n\n选项：\nA.mountains\nB.countryside\nC.train\nD.painting\nE.village\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:24.370328"
+        },
+        {
+            "question_idx": 91,
+            "question": "If a lizard is fed by people every day, what has happened to it?",
+            "options": [
+                "A.documentary",
+                "B.costa rica",
+                "C.garden",
+                "D.encouragement",
+                "E.captivity"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If a lizard is fed by people every day, what has happened to it?\n\n选项：\nA.documentary\nB.costa rica\nC.garden\nD.encouragement\nE.captivity\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:25.471486"
+        },
+        {
+            "question_idx": 92,
+            "question": "If you are committing perjury you have done what while under oath?",
+            "options": [
+                "A.crime",
+                "B.disrespect judge",
+                "C.embarrassment",
+                "D.lie",
+                "E.indictment"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If you are committing perjury you have done what while under oath?\n\n选项：\nA.crime\nB.disrespect judge\nC.embarrassment\nD.lie\nE.indictment\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:27.585252"
+        },
+        {
+            "question_idx": 93,
+            "question": "She had an interest in the man, what did she want to do with him?",
+            "options": [
+                "A.see particular program",
+                "B.see exhibits",
+                "C.see people play game",
+                "D.have conversation",
+                "E.watch film"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：She had an interest in the man, what did she want to do with him?\n\n选项：\nA.see particular program\nB.see exhibits\nC.see people play game\nD.have conversation\nE.watch film\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:29.782572"
+        },
+        {
+            "question_idx": 94,
+            "question": "The table wasn't level.  some parts were higher and some were lower with no rhyme or reason.   It was very what?",
+            "options": [
+                "A.electrical circuit",
+                "B.build evenly",
+                "C.uneven",
+                "D.unbalanced",
+                "E.tilted"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：The table wasn't level.  some parts were higher and some were lower with no rhyme or reason.   It was very what?\n\n选项：\nA.electrical circuit\nB.build evenly\nC.uneven\nD.unbalanced\nE.tilted\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:30.907075"
+        },
+        {
+            "question_idx": 95,
+            "question": "Where do you keep your pizza slice before you eat it?",
+            "options": [
+                "A.table",
+                "B.plate",
+                "C.restaurant",
+                "D.oven",
+                "E.popular"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where do you keep your pizza slice before you eat it?\n\n选项：\nA.table\nB.plate\nC.restaurant\nD.oven\nE.popular\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:32.246679"
+        },
+        {
+            "question_idx": 96,
+            "question": "What is a person looking for when completing puzzles or riddles?",
+            "options": [
+                "A.avoid pain",
+                "B.compliments",
+                "C.intellectual challenge",
+                "D.passing grade",
+                "E.attention"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What is a person looking for when completing puzzles or riddles?\n\n选项：\nA.avoid pain\nB.compliments\nC.intellectual challenge\nD.passing grade\nE.attention\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:33.336876"
+        },
+        {
+            "question_idx": 97,
+            "question": "The bald eagle flew from Mount St Helen's to the Puget Sound and all over what?",
+            "options": [
+                "A.washington state",
+                "B.utah",
+                "C.pacific northwest",
+                "D.northern california",
+                "E.the desert"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：The bald eagle flew from Mount St Helen's to the Puget Sound and all over what?\n\n选项：\nA.washington state\nB.utah\nC.pacific northwest\nD.northern california\nE.the desert\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:35.262823"
+        },
+        {
+            "question_idx": 98,
+            "question": "What kind of cold storage could you find in your house?",
+            "options": [
+                "A.ice pack",
+                "B.freezer",
+                "C.laboratory",
+                "D.warehouse",
+                "E.refrigerator"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What kind of cold storage could you find in your house?\n\n选项：\nA.ice pack\nB.freezer\nC.laboratory\nD.warehouse\nE.refrigerator\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:11:40.990640"
+        },
+        {
+            "question_idx": 99,
+            "question": "No matter what date you put on it, we all know the universe to be what?",
+            "options": [
+                "A.very old",
+                "B.infiniverse",
+                "C.getting younger",
+                "D.infinite",
+                "E.real"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：No matter what date you put on it, we all know the universe to be what?\n\n选项：\nA.very old\nB.infiniverse\nC.getting younger\nD.infinite\nE.real\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:42.157517"
+        },
+        {
+            "question_idx": 100,
+            "question": "Because John was first violin, he had to bring something important to work ever day. What did he need to bring to work?",
+            "options": [
+                "A.music store",
+                "B.obesity",
+                "C.symphony orchestra",
+                "D.ochestra",
+                "E.violin case"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Because John was first violin, he had to bring something important to work ever day. What did he need to bring to work?\n\n选项：\nA.music store\nB.obesity\nC.symphony orchestra\nD.ochestra\nE.violin case\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:43.484583"
+        },
+        {
+            "question_idx": 101,
+            "question": "If I want a new ottoman, where should I go?",
+            "options": [
+                "A.furniture store",
+                "B.parlor",
+                "C.turkey",
+                "D.living room",
+                "E.den"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If I want a new ottoman, where should I go?\n\n选项：\nA.furniture store\nB.parlor\nC.turkey\nD.living room\nE.den\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:44.556562"
+        },
+        {
+            "question_idx": 102,
+            "question": "What is the likely result of buying products in excess?",
+            "options": [
+                "A.running out of money",
+                "B.spending money",
+                "C.poverty",
+                "D.comparison shopping",
+                "E.overstocking"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What is the likely result of buying products in excess?\n\n选项：\nA.running out of money\nB.spending money\nC.poverty\nD.comparison shopping\nE.overstocking\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:11:48.079400"
+        },
+        {
+            "question_idx": 103,
+            "question": "To what do trees roots cling?",
+            "options": [
+                "A.yard",
+                "B.orchard",
+                "C.museum",
+                "D.countryside",
+                "E.surface of earth"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：To what do trees roots cling?\n\n选项：\nA.yard\nB.orchard\nC.museum\nD.countryside\nE.surface of earth\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:49.183215"
+        },
+        {
+            "question_idx": 104,
+            "question": "Where can you find the meaning of \"ficus\"?",
+            "options": [
+                "A.dictionary",
+                "B.apartment",
+                "C.libary",
+                "D.middle east",
+                "E.arboretum"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where can you find the meaning of \"ficus\"?\n\n选项：\nA.dictionary\nB.apartment\nC.libary\nD.middle east\nE.arboretum\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:55.383672"
+        },
+        {
+            "question_idx": 105,
+            "question": "Where is a drug kept in a home bathroom?",
+            "options": [
+                "A.nursery",
+                "B.ghetto",
+                "C.cupboard",
+                "D.pharmacy",
+                "E.medicine cabinet"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where is a drug kept in a home bathroom?\n\n选项：\nA.nursery\nB.ghetto\nC.cupboard\nD.pharmacy\nE.medicine cabinet\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:56.471603"
+        },
+        {
+            "question_idx": 106,
+            "question": "The lion sensed his competitor was timid, so what attitude did the lion take?",
+            "options": [
+                "A.reckless",
+                "B.bellicose",
+                "C.defensive",
+                "D.aggressive",
+                "E.dauntless"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：The lion sensed his competitor was timid, so what attitude did the lion take?\n\n选项：\nA.reckless\nB.bellicose\nC.defensive\nD.aggressive\nE.dauntless\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:57.575339"
+        },
+        {
+            "question_idx": 107,
+            "question": "If a reception is held with hotel guests walking by, what is the likely venue?",
+            "options": [
+                "A.room service",
+                "B.church basement",
+                "C.lobby",
+                "D.large room",
+                "E.country club"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If a reception is held with hotel guests walking by, what is the likely venue?\n\n选项：\nA.room service\nB.church basement\nC.lobby\nD.large room\nE.country club\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:11:58.937661"
+        },
+        {
+            "question_idx": 108,
+            "question": "Where would you put a dollar if you want to go to a store and buy something with it?",
+            "options": [
+                "A.cash drawer",
+                "B.teh bank",
+                "C.safety deposit box",
+                "D.pocket",
+                "E.piggy bank"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where would you put a dollar if you want to go to a store and buy something with it?\n\n选项：\nA.cash drawer\nB.teh bank\nC.safety deposit box\nD.pocket\nE.piggy bank\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:12:00.299395"
+        },
+        {
+            "question_idx": 109,
+            "question": "John bought a new water hose.  But he found his old one near his car.  Where did he find the old one?",
+            "options": [
+                "A.garden shed",
+                "B.hardware store",
+                "C.greenhouse",
+                "D.garage",
+                "E.in a van"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：John bought a new water hose.  But he found his old one near his car.  Where did he find the old one?\n\n选项：\nA.garden shed\nB.hardware store\nC.greenhouse\nD.garage\nE.in a van\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "D",
+            "model_parsed_answer": "D",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:12:01.412128"
+        },
+        {
+            "question_idx": 110,
+            "question": "What kind of tale might feature a talking weasel?",
+            "options": [
+                "A.mulberry bush",
+                "B.animated film",
+                "C.chicken coop",
+                "D.history book",
+                "E.children's story"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What kind of tale might feature a talking weasel?\n\n选项：\nA.mulberry bush\nB.animated film\nC.chicken coop\nD.history book\nE.children's story\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:12:02.554481"
+        },
+        {
+            "question_idx": 111,
+            "question": "John needed a straight wire.  Unfortunately, this one had endured some abuse and had become what?",
+            "options": [
+                "A.bent",
+                "B.bent",
+                "C.crooked",
+                "D.straightforth",
+                "E.curved"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：John needed a straight wire.  Unfortunately, this one had endured some abuse and had become what?\n\n选项：\nA.bent\nB.bent\nC.crooked\nD.straightforth\nE.curved\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:12:04.838672"
+        },
+        {
+            "question_idx": 112,
+            "question": "A person with digestion issues eats a meat-filled breakfast, what does he feel?",
+            "options": [
+                "A.heartburn",
+                "B.overeating",
+                "C.happiness",
+                "D.being satisfied",
+                "E.gain energy"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：A person with digestion issues eats a meat-filled breakfast, what does he feel?\n\n选项：\nA.heartburn\nB.overeating\nC.happiness\nD.being satisfied\nE.gain energy\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:12:07.258803"
+        },
+        {
+            "question_idx": 113,
+            "question": "Billy saw a dog running from him and did his best to get away from it.  The leaped up to where the dog couldn't reach and was stuck.  Where might he have been trapped?",
+            "options": [
+                "A.kennel",
+                "B.table",
+                "C.porch",
+                "D.backyard",
+                "E.park"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Billy saw a dog running from him and did his best to get away from it.  The leaped up to where the dog couldn't reach and was stuck.  Where might he have been trapped?\n\n选项：\nA.kennel\nB.table\nC.porch\nD.backyard\nE.park\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:12:08.980794"
+        },
+        {
+            "question_idx": 114,
+            "question": "Where is the sky most beautiful?",
+            "options": [
+                "A.planetarium",
+                "B.outdoors",
+                "C.atmosphere",
+                "D.night",
+                "E.photo"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where is the sky most beautiful?\n\n选项：\nA.planetarium\nB.outdoors\nC.atmosphere\nD.night\nE.photo\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:12:10.134956"
+        },
+        {
+            "question_idx": 115,
+            "question": "What do most companies not want to have relative to demand?",
+            "options": [
+                "A.oversupply",
+                "B.plentitude",
+                "C.stockpile",
+                "D.superabundance",
+                "E.busy"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What do most companies not want to have relative to demand?\n\n选项：\nA.oversupply\nB.plentitude\nC.stockpile\nD.superabundance\nE.busy\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:12:12.593510"
+        },
+        {
+            "question_idx": 116,
+            "question": "What kind of feelings does buying presents for others create?",
+            "options": [
+                "A.tears",
+                "B.please",
+                "C.like",
+                "D.thank",
+                "E.make happy"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What kind of feelings does buying presents for others create?\n\n选项：\nA.tears\nB.please\nC.like\nD.thank\nE.make happy\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:12:14.380337"
+        },
+        {
+            "question_idx": 117,
+            "question": "If someone mean wanted to insult somebody by calling them a fruit, where is probably not the smartest place to do it?",
+            "options": [
+                "A.gay bar",
+                "B.market",
+                "C.grocery store",
+                "D.refrigerator",
+                "E.container"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If someone mean wanted to insult somebody by calling them a fruit, where is probably not the smartest place to do it?\n\n选项：\nA.gay bar\nB.market\nC.grocery store\nD.refrigerator\nE.container\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "B",
+            "model_parsed_answer": "B",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:12:15.706334"
+        },
+        {
+            "question_idx": 118,
+            "question": "What is the primary purpose of cars?",
+            "options": [
+                "A.cost money",
+                "B.slow down",
+                "C.move people",
+                "D.turn right",
+                "E.get girls"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：What is the primary purpose of cars?\n\n选项：\nA.cost money\nB.slow down\nC.move people\nD.turn right\nE.get girls\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "C",
+            "model_raw_answer": "C",
+            "model_parsed_answer": "C",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:12:18.046069"
+        },
+        {
+            "question_idx": 119,
+            "question": "A car was hailed to chauffeur someone to the opera house, where was it heading?",
+            "options": [
+                "A.go downtown",
+                "B.appear suddenly",
+                "C.go fast",
+                "D.bottom out",
+                "E.east"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：A car was hailed to chauffeur someone to the opera house, where was it heading?\n\n选项：\nA.go downtown\nB.appear suddenly\nC.go fast\nD.bottom out\nE.east\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:12:19.644979"
+        },
+        {
+            "question_idx": 120,
+            "question": "Where would you get a shower curtain if you do not have one?",
+            "options": [
+                "A.department store",
+                "B.restaurant",
+                "C.hotel",
+                "D.dime store",
+                "E.bathtub"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Where would you get a shower curtain if you do not have one?\n\n选项：\nA.department store\nB.restaurant\nC.hotel\nD.dime store\nE.bathtub\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "A",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:12:21.341412"
+        },
+        {
+            "question_idx": 121,
+            "question": "If you're remembering something, it's because of your what of it to begin with?",
+            "options": [
+                "A.knowledge",
+                "B.knowing",
+                "C.forgetful",
+                "D.pleasure",
+                "E.depression"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：If you're remembering something, it's because of your what of it to begin with?\n\n选项：\nA.knowledge\nB.knowing\nC.forgetful\nD.pleasure\nE.depression\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "B",
+            "model_raw_answer": "A",
+            "model_parsed_answer": "A",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:12:24.358830"
+        },
+        {
+            "question_idx": 122,
+            "question": "Joe was thrown from his boat into the water. The water was cold because it was the middle of winter and he cried out to his crew for help. They couldn't hear him over the sound of the what?",
+            "options": [
+                "A.surface of earth",
+                "B.teardrops",
+                "C.snowflake",
+                "D.typhoon",
+                "E.motor"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Joe was thrown from his boat into the water. The water was cold because it was the middle of winter and he cried out to his crew for help. They couldn't hear him over the sound of the what?\n\n选项：\nA.surface of earth\nB.teardrops\nC.snowflake\nD.typhoon\nE.motor\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "D",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": false,
+            "timestamp": "2025-12-09T20:12:25.465162"
+        },
+        {
+            "question_idx": 123,
+            "question": "The architect thought that a mezzanine would look good, but the planning committee rejected it. They told the architect that they felt it was a potential hazard given the ages of the people who would be using it. What might they be designing?",
+            "options": [
+                "A.actors",
+                "B.theater",
+                "C.concert hall",
+                "D.floors",
+                "E.school"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：The architect thought that a mezzanine would look good, but the planning committee rejected it. They told the architect that they felt it was a potential hazard given the ages of the people who would be using it. What might they be designing?\n\n选项：\nA.actors\nB.theater\nC.concert hall\nD.floors\nE.school\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:12:26.773118"
+        },
+        {
+            "question_idx": 124,
+            "question": "Danny found that the carpet did not ,match the drapes, which was disappointing, because this place was expensive. But it was the only place in town that wasn't booked solid for the week and he needed it while he was in town, so he couldn't complain. Where might this place be?",
+            "options": [
+                "A.brothel",
+                "B.restaurant",
+                "C.building",
+                "D.bowling alley",
+                "E.at hotel"
+            ],
+            "prompt": "下面是一道常识选择题，请从给定选项中选择最合适的答案。\n\n问题：Danny found that the carpet did not ,match the drapes, which was disappointing, because this place was expensive. But it was the only place in town that wasn't booked solid for the week and he needed it while he was in town, so he couldn't complain. Where might this place be?\n\n选项：\nA.brothel\nB.restaurant\nC.building\nD.bowling alley\nE.at hotel\n\n请只输出你选择的选项字母（A、B、C、D或E），不要输出选项内容和任何解释。",
+            "ground_truth": "E",
+            "model_raw_answer": "E",
+            "model_parsed_answer": "E",
+            "is_correct": true,
+            "timestamp": "2025-12-09T20:12:28.024790"
+        }
+    ]
+}

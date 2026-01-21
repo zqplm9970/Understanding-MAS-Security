@@ -1,0 +1,330 @@
+{
+  "dataset": "ALL",
+  "topology": "Decentralized",
+  "color_scales": {
+    "without_optimization": {
+      "min": 0.6145057128663686,
+      "max": 0.646795827123696
+    },
+    "path_optimization": {
+      "min": 0.45753899480069327,
+      "max": 0.6498800959232613
+    }
+  },
+  "node_influence": {
+    "agent_001": 1.0,
+    "agent_002": 1.0,
+    "agent_004": 1.0,
+    "agent_003": 1.0,
+    "agent_005": 1.0,
+    "agent_006": 1.0
+  },
+  "rounds": {
+    "1": {
+      "without_optimization": {
+        "agent_001": {
+          "hallu_rate": 0.6313959264778937,
+          "high_risk_rate": 0.5062096373571784,
+          "prop_new_rate": 0.8968058968058968,
+          "relative_hallu_rate": 0.003416210733201258,
+          "hallu_delta": 0.0,
+          "node_influence": 1.0
+        },
+        "agent_002": {
+          "hallu_rate": 0.6294088425235966,
+          "high_risk_rate": 0.49975161450571287,
+          "prop_new_rate": 0.8985148514851485,
+          "relative_hallu_rate": 0.00026412301118324905,
+          "hallu_delta": 0.0,
+          "node_influence": 1.0
+        },
+        "agent_003": {
+          "hallu_rate": 0.6145057128663686,
+          "high_risk_rate": 0.4883258817685047,
+          "prop_new_rate": 0.9017632241813602,
+          "relative_hallu_rate": -0.02369866067164965,
+          "hallu_delta": 0.0,
+          "node_influence": 1.0
+        },
+        "agent_004": {
+          "hallu_rate": 0.6234475906607054,
+          "high_risk_rate": 0.496274217585693,
+          "prop_new_rate": 0.8891625615763546,
+          "relative_hallu_rate": -0.009252196184843506,
+          "hallu_delta": 0.0,
+          "node_influence": 1.0
+        },
+        "agent_005": {
+          "hallu_rate": 0.6378539493293591,
+          "high_risk_rate": 0.511177347242921,
+          "prop_new_rate": 0.8793103448275862,
+          "relative_hallu_rate": 0.013592413703571749,
+          "hallu_delta": 0.0,
+          "node_influence": 1.0
+        },
+        "agent_006": {
+          "hallu_rate": 0.6388474913065078,
+          "high_risk_rate": 0.511177347242921,
+          "prop_new_rate": 0.8853658536585366,
+          "relative_hallu_rate": 0.015148832717016118,
+          "hallu_delta": 0.0,
+          "node_influence": 1.0
+        }
+      },
+      "path_optimization": {
+        "agent_001": {
+          "hallu_rate": 0.6412470023980815,
+          "high_risk_rate": 0.5256594724220623,
+          "prop_new_rate": 0.929471032745592,
+          "relative_hallu_rate": -0.0064602486012202915,
+          "hallu_delta": 0.0,
+          "node_influence": 1.0
+        },
+        "agent_002": {
+          "hallu_rate": 0.6455635491606715,
+          "high_risk_rate": 0.528537170263789,
+          "prop_new_rate": 0.924433249370277,
+          "relative_hallu_rate": 0.0002486777716949804,
+          "hallu_delta": 0.0,
+          "node_influence": 1.0
+        },
+        "agent_003": {
+          "hallu_rate": 0.6498800959232613,
+          "high_risk_rate": 0.5342925659472422,
+          "prop_new_rate": 0.914572864321608,
+          "relative_hallu_rate": 0.006912894240408075,
+          "hallu_delta": 0.0,
+          "node_influence": 1.0
+        },
+        "agent_004": {
+          "hallu_rate": 0.6489208633093525,
+          "high_risk_rate": 0.5381294964028777,
+          "prop_new_rate": 0.9185185185185185,
+          "relative_hallu_rate": 0.005435790565408118,
+          "hallu_delta": 0.0,
+          "node_influence": 1.0
+        },
+        "agent_005": {
+          "hallu_rate": 0.6426858513189448,
+          "high_risk_rate": 0.5270983213429257,
+          "prop_new_rate": 0.9265822784810127,
+          "relative_hallu_rate": -0.004218935011522428,
+          "hallu_delta": 0.0,
+          "node_influence": 1.0
+        },
+        "agent_006": {
+          "hallu_rate": 0.6441247002398082,
+          "high_risk_rate": 0.5299760191846523,
+          "prop_new_rate": 0.9209876543209876,
+          "relative_hallu_rate": -0.001982633676490987,
+          "hallu_delta": 0.0,
+          "node_influence": 1.0
+        }
+      }
+    },
+    "2": {
+      "without_optimization": {
+        "agent_001": {
+          "hallu_rate": 0.6269249875807252,
+          "high_risk_rate": 0.4143070044709389,
+          "prop_new_rate": 0.775609756097561,
+          "relative_hallu_rate": -0.013379745007516418,
+          "hallu_delta": -0.0044709388971684305,
+          "node_influence": 1.0
+        },
+        "agent_002": {
+          "hallu_rate": 0.6373571783407849,
+          "high_risk_rate": 0.42225534028812717,
+          "prop_new_rate": 0.7419354838709677,
+          "relative_hallu_rate": 0.0031235599186037986,
+          "hallu_delta": 0.007948335817188235,
+          "node_influence": 1.0
+        },
+        "agent_003": {
+          "hallu_rate": 0.6289120715350224,
+          "high_risk_rate": 0.41629408842523596,
+          "prop_new_rate": 0.7804878048780488,
+          "relative_hallu_rate": -0.010215188606669045,
+          "hallu_delta": 0.014406358668653807,
+          "node_influence": 1.0
+        },
+        "agent_004": {
+          "hallu_rate": 0.6323894684550422,
+          "high_risk_rate": 0.41927471435668157,
+          "prop_new_rate": 0.766497461928934,
+          "relative_hallu_rate": -0.004701198308665266,
+          "hallu_delta": 0.00894187779433675,
+          "node_influence": 1.0
+        },
+        "agent_005": {
+          "hallu_rate": 0.6438152011922503,
+          "high_risk_rate": 0.42871336313959263,
+          "prop_new_rate": 0.7412935323383084,
+          "relative_hallu_rate": 0.013205062215606212,
+          "hallu_delta": 0.005961251862891204,
+          "node_influence": 1.0
+        },
+        "agent_006": {
+          "hallu_rate": 0.6428216592151018,
+          "high_risk_rate": 0.425732737208147,
+          "prop_new_rate": 0.7239583333333334,
+          "relative_hallu_rate": 0.011660661889551761,
+          "hallu_delta": 0.003974167908594062,
+          "node_influence": 1.0
+        }
+      },
+      "path_optimization": {
+        "agent_001": {
+          "hallu_rate": 0.5846730975348339,
+          "high_risk_rate": 0.21757770632368703,
+          "prop_new_rate": 0.9157303370786517,
+          "relative_hallu_rate": 0.10218483641218927,
+          "hallu_delta": -0.05657390486324765,
+          "node_influence": 1.0
+        },
+        "agent_002": {
+          "hallu_rate": 0.5936454849498328,
+          "high_risk_rate": 0.21348940914158304,
+          "prop_new_rate": 0.9197530864197531,
+          "relative_hallu_rate": 0.11741425386528061,
+          "hallu_delta": -0.051918064210838666,
+          "node_influence": 1.0
+        },
+        "agent_003": {
+          "hallu_rate": 0.49449035812672176,
+          "high_risk_rate": 0.03581267217630854,
+          "prop_new_rate": 0.9611650485436893,
+          "relative_hallu_rate": -0.06534022969043629,
+          "hallu_delta": -0.15538973779653958,
+          "node_influence": 1.0
+        },
+        "agent_004": {
+          "hallu_rate": 0.5243393602225312,
+          "high_risk_rate": 0.055632823365785816,
+          "prop_new_rate": 0.9519230769230769,
+          "relative_hallu_rate": -0.006728834397659578,
+          "hallu_delta": -0.12458150308682125,
+          "node_influence": 1.0
+        },
+        "agent_005": {
+          "hallu_rate": 0.5125925925925926,
+          "high_risk_rate": 0.05333333333333334,
+          "prop_new_rate": 0.9528301886792453,
+          "relative_hallu_rate": -0.0293865568683269,
+          "hallu_delta": -0.13009325872635225,
+          "node_influence": 1.0
+        },
+        "agent_006": {
+          "hallu_rate": 0.45753899480069327,
+          "high_risk_rate": 0.01733102253032929,
+          "prop_new_rate": 0.9529411764705882,
+          "relative_hallu_rate": -0.14300568050141652,
+          "hallu_delta": -0.1865857054391149,
+          "node_influence": 1.0
+        }
+      }
+    },
+    "3": {
+      "without_optimization": {
+        "agent_001": {
+          "hallu_rate": 0.6318926974664679,
+          "high_risk_rate": 0.3204172876304024,
+          "prop_new_rate": 0.7626262626262627,
+          "relative_hallu_rate": -0.010037533242551308,
+          "hallu_delta": 0.004967709885742688,
+          "node_influence": 1.0
+        },
+        "agent_002": {
+          "hallu_rate": 0.6433184302036761,
+          "high_risk_rate": 0.32687531048186785,
+          "prop_new_rate": 0.7135135135135136,
+          "relative_hallu_rate": 0.007882679051230924,
+          "hallu_delta": 0.005961251862891204,
+          "node_influence": 1.0
+        },
+        "agent_003": {
+          "hallu_rate": 0.6308991554893194,
+          "high_risk_rate": 0.32190760059612517,
+          "prop_new_rate": 0.7319587628865979,
+          "relative_hallu_rate": -0.01161109609929184,
+          "hallu_delta": 0.001987083954297031,
+          "node_influence": 1.0
+        },
+        "agent_004": {
+          "hallu_rate": 0.6328862394436164,
+          "high_risk_rate": 0.3263785394932936,
+          "prop_new_rate": 0.7395833333333334,
+          "relative_hallu_rate": -0.008466442596205645,
+          "hallu_delta": 0.0004967709885742577,
+          "node_influence": 1.0
+        },
+        "agent_005": {
+          "hallu_rate": 0.646795827123696,
+          "high_risk_rate": 0.3373075012419275,
+          "prop_new_rate": 0.7061855670103093,
+          "relative_hallu_rate": 0.013273522351976708,
+          "hallu_delta": 0.0029806259314456574,
+          "node_influence": 1.0
+        },
+        "agent_006": {
+          "hallu_rate": 0.6438152011922503,
+          "high_risk_rate": 0.3313462493790363,
+          "prop_new_rate": 0.6961325966850829,
+          "relative_hallu_rate": 0.00865458106426612,
+          "hallu_delta": 0.0009935419771485154,
+          "node_influence": 1.0
+        }
+      },
+      "path_optimization": {
+        "agent_001": {
+          "hallu_rate": 0.5878559914024718,
+          "high_risk_rate": 0.2106394411606663,
+          "prop_new_rate": 0.9027027027027027,
+          "relative_hallu_rate": 0.09974626199478653,
+          "hallu_delta": 0.003182893867637926,
+          "node_influence": 1.0
+        },
+        "agent_002": {
+          "hallu_rate": 0.5965304980414102,
+          "high_risk_rate": 0.20872971460548406,
+          "prop_new_rate": 0.8841463414634146,
+          "relative_hallu_rate": 0.11439461206035154,
+          "hallu_delta": 0.002885013091577404,
+          "node_influence": 1.0
+        },
+        "agent_003": {
+          "hallu_rate": 0.4979253112033195,
+          "high_risk_rate": 0.035961272475795295,
+          "prop_new_rate": 0.9583333333333334,
+          "relative_hallu_rate": -0.06628549158864522,
+          "hallu_delta": 0.0034349530765977465,
+          "node_influence": 1.0
+        },
+        "agent_004": {
+          "hallu_rate": 0.5316455696202531,
+          "high_risk_rate": 0.05485232067510549,
+          "prop_new_rate": 0.9381443298969072,
+          "relative_hallu_rate": -0.0007586028365994794,
+          "hallu_delta": 0.007306209397721863,
+          "node_influence": 1.0
+        },
+        "agent_005": {
+          "hallu_rate": 0.5149253731343284,
+          "high_risk_rate": 0.05522388059701493,
+          "prop_new_rate": 0.9285714285714286,
+          "relative_hallu_rate": -0.032713631510850355,
+          "hallu_delta": 0.0023327805417358016,
+          "node_influence": 1.0
+        },
+        "agent_006": {
+          "hallu_rate": 0.4634146341463415,
+          "high_risk_rate": 0.0156794425087108,
+          "prop_new_rate": 0.9493670886075949,
+          "relative_hallu_rate": -0.13811330884391235,
+          "hallu_delta": 0.00587563934564822,
+          "node_influence": 1.0
+        }
+      }
+    }
+  }
+}

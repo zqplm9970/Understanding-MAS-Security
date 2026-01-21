@@ -1,0 +1,6 @@
+Topology,Communication Paradigm,Hallucination Test Type,Accuracy (without decision intervention),Accuracy (Decision Intervention),Runtime (without decision intervention),Runtime (Decision Intervention),Accuracy Gain,Time Cost,Accuracy Gain Normalized,Time Cost Normalized,Efficiency Score,Configuration
+Centralized,Competitive,common-sense,0.792,0.832,23.55,19.29,0.05050505050505041,0.180891719745223,0.11219880318442232,0.25294249292505067,-0.14074368974062834,Centralized - Competitive
+Decentralized,Debate,common-sense,0.832,0.864,19.17,19.02,0.0384615384615385,0.0078247261345854,0.07891967730620879,0.0,0.07891967730620879,Decentralized - Debate
+Layered,Competitive,common-sense,0.808,0.864,15.36,11.91,0.06930693069306923,0.22460937499999997,0.16415292879691346,0.31683712976065315,-0.1526842009637397,Layered - Competitive
+Layered,Debate,common-sense,0.8,0.872,14.37,10.82,0.08999999999999994,0.24704244954766869,0.22133286566117163,0.3496237269140462,-0.12829086125287456,Layered - Debate
+Decision_Center,Non,common-sense,0.624,0.856,17.21,5.3,0.37179487179487175,0.6920395119116792,1.0,1.0,0.0,Decision_Center - Non
